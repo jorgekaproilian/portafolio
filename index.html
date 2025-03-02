@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-    <header></header>
+    <header class="header">
+        <nav class="header__menu">
+            <a class="header__menu__link" href="index.html">Home</a>
+            <a class="header__menu__link" href="about.html">Sobre mi</a>
+        </nav>
+    </header>
+
     <main class="presentacion">
         <section class="presentacion__contenido">
             <h1 class="presentacion__contenido__titulo">Eleve tu negocio digital
@@ -16,13 +22,19 @@
             <p class="presentacion__contenido__parrafo">¡Hola! Soy Jorge 
                 Braceiro, desarrollador web con conocimientos en Front-end y 
                 Back-end. Lenguajes: HTML, CSS, C++, JavaScript</p>
+                <!--Comentario solo para muestra y referencia-->
             <div class="presentacion__enlaces">
-            <a class="presentacion__enlaces__link" href="https://www.instagram.com/">Instagram</a>
-            <a class="presentacion__enlaces__link" href="https://www.github.com/">GitHub</a>
+            <h2 class="presentacion__enlaces__subtitulos">Acceso a mis redes:</h2>
+            <a class="presentacion__enlaces__link" href="https://www.instagram.com/">
+                <img src="./assets/instagram.png">
+                Instagram</a>
+            <a class="presentacion__enlaces__link" href="https://www.github.com/">
+                <img src="./assets/github.png">
+                GitHub</a>
             </div>
         </section>
-        <img src="Imagen-persona.png" alt="Imagen de Ana Garcia trabajando">
+        <img src="./assets/Imagem.png" alt="Imagen de Ana Garcia trabajando">
     </main>
-    <footer></footer>
+    <footer class="footer">Desarrollado por Jorge Braceiro</footer>
 </body>
 </html>
